@@ -1,0 +1,48 @@
+{
+  "name": "alfred-sublime",
+  "version": "1.0.0",
+  "repository": "Cloudstek/alfred-sublime",
+  "author": "Maarten de Boer <maarten@cloudstek.nl> (https://cloudstek.nl)",
+  "license": "BSD-2-Clause",
+  "bugs": "https://github.com/Cloudstek/alfred-sublime/issues",
+  "description": "Simple workflow that allows you to browse and open Sublime projects",
+  "main": "dist/index.js",
+  "files": [
+    "/dist",
+    "/info.plist",
+    "/icon.png",
+    "yarn.lock"
+  ],
+  "keywords": [
+    "sublime",
+    "workflow",
+    "ide",
+    "editor",
+    "projects"
+  ],
+  "dependencies": {
+    "alfred-hugo": "^2.0.3",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.6",
+    "untildify": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/glob": "^7.1.1",
+    "@types/node": "^13.1.0",
+    "del-cli": "^3.0.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "clean": "del-cli dist*",
+    "build": "del-cli dist && tsc",
+    "watch": "del-cli dist && tsc --watch",
+    "lint": "tslint src/**/*.ts*",
+    "postinstall": "hugo-link",
+    "preuninstall": "hugo-unlink"
+  }
+}
