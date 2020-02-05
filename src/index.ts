@@ -1,7 +1,5 @@
 import untildify from 'untildify';
-import glob from 'glob';
-import fs from 'fs-extra';
-import { Hugo, Item } from 'alfred-hugo';
+import { Hugo } from 'alfred-hugo';
 
 import { Projects } from './projects';
 
