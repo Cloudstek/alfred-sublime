@@ -1,6 +1,4 @@
-import untildify from 'untildify';
 import glob from 'glob';
-import fs from 'fs-extra';
 import { Hugo, Item } from 'alfred-hugo';
 
 import { Project } from './types';
@@ -95,8 +93,10 @@ export class Projects {
         return items;
     }
 
-    private static sublimeApp: string =  process.env.sublimeApp || '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl';
-    private static terminalApp: string = process.env.terminalApp || 'Terminal';
+    private static sublimeApp: string =  process.env.sublimeApp
+        || '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl';
+    private static terminalApp: string = process.env.terminalApp
+        || 'Terminal';
 
     /**
      * Open arguments
