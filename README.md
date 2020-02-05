@@ -19,9 +19,9 @@ This workflow can be installed with NPM, as an added bonus you'll get a notifica
 npm install -g alfred-sublime
 ```
 
-### Packal / GitHub
+### GitHub
 
-1. Download the latest `Sublime.alfredworkflow` from [Packal](http://www.packal.org/workflow/sublime) or [GitHub](https://github.com/Cloudstek/alfred-sublime/releases).
+1. Download the latest `Sublime.alfredworkflow` from [GitHub](https://github.com/Cloudstek/alfred-sublime/releases).
 2. Double click `Sublime.alfredworkflow`.
 
 ## Usage
