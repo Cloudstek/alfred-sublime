@@ -38,7 +38,7 @@
     "typescript": "^3.7.4"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "scripts": {
     "clean": "del-cli dist*",

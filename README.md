@@ -4,7 +4,7 @@ Simple workflow that allows you to browse and open [Sublime](https://www.sublime
 
 ## Requirements
 
-- NodeJS 8+
+- NodeJS 10+
 - [Sublime Text 3](https://www.sublimetext.com/)
 - [ProjectManager package](https://packagecontrol.io/packages/ProjectManager)
 - Alfred 4 with paid [Alfred Powerpack](https://www.alfredapp.com/powerpack)
@@ -13,9 +13,11 @@ Simple workflow that allows you to browse and open [Sublime](https://www.sublime
 
 ### NPM (preferred)
 
-This workflow can be installed with NPM, as an added bonus you'll get a notification when an update is available!
+This workflow can be installed with Yarn/NPM, as an added bonus you'll get a notification when an update is available!
 
 ```shell
+yarn add -g alfred-sublime
+# or
 npm install -g alfred-sublime
 ```
 
