@@ -1,7 +1,7 @@
 import glob from 'glob';
-import { Hugo, Item } from 'alfred-hugo';
+import {Hugo, Item} from 'alfred-hugo';
 
-import { Project } from './types';
+import {Project} from './types';
 
 export class Projects {
     /**
@@ -25,7 +25,7 @@ export class Projects {
                     return;
                 }
 
-                let name: string|null = null;
+                let name: string | null = null;
                 const paths = [];
 
                 for (const folder of p.folders) {
@@ -93,7 +93,7 @@ export class Projects {
         return items;
     }
 
-    private static sublimeApp: string =  process.env.sublimeApp
+    private static sublimeApp: string = process.env.sublimeApp
         || '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl';
     private static terminalApp: string = process.env.terminalApp
         || 'Terminal';
@@ -103,7 +103,7 @@ export class Projects {
      *
      * @param {Project} project Sublime project
      * @param {string} app Application name
-     * @param {Array.string} args Application arguments
+     * @param {Array.String} args Application arguments
      *
      * @return {string} Open command
      */

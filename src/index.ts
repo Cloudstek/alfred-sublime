@@ -1,7 +1,7 @@
 import untildify from 'untildify';
-import { Hugo } from 'alfred-hugo';
+import {Hugo} from 'alfred-hugo';
 
-import { Projects } from './projects';
+import {Projects} from './projects';
 
 const hugo = new Hugo({
     checkUpdates: true,
