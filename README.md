@@ -1,4 +1,6 @@
 # Alfred Sublime Workflow
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FCloudstek%2Falfred-sublime.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FCloudstek%2Falfred-sublime?ref=badge_shield)
+
 
 Simple workflow that allows you to browse and open [Sublime](https://www.sublimetext.com) projects.
 
@@ -37,3 +39,7 @@ Simply type `subl` followed by space to list all projects. Optionally type a sea
 Please check that the directory `~/Library/Application Support/Sublime Text 3/Packages/User/Projects` exists and that it contains `.sublime-project` files.
 
 Also check out the debug output, see the [Using the Workflow Debugger](https://www.alfredapp.com/help/workflows/advanced/debugger/) section of the Alfred documentation.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FCloudstek%2Falfred-sublime.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FCloudstek%2Falfred-sublime?ref=badge_large)
